@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Will's First Chrome Extension",
+    "description": "This extension will add an item to your wish list!",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+     "activeTab"
+     ]
+  }
